@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>你的名字 | 个人主页</title>
+    <meta
+      name="description"
+      content="一个简洁、专业、响应式的个人主页，用于展示简介、能力、项目经历与联系方式。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="返回首页">
+        <span class="brand-mark">Y</span>
+        <span>你的名字</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="打开导航" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="主导航" data-nav>
+        <a href="#about">关于</a>
+        <a href="#work">项目</a>
+        <a href="#experience">经历</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-label="个人主页首页">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Personal Homepage</p>
+          <h1>你的名字</h1>
+          <p class="hero-lede">
+            专注于材料研究、数据分析与清晰表达，把复杂问题整理成可理解、可验证、可继续推进的成果。
+          </p>
+          <div class="hero-actions" aria-label="主要操作">
+            <a class="button primary" href="#work">查看项目</a>
+            <a class="button secondary" href="#contact">联系我</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>关于我</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>
+              我是一名持续学习和实践的人，关注柔性无机材料、实验数据整理、文献阅读与科研展示。这个主页可以作为个人介绍、作品集或科研简历的入口。
+            </p>
+            <p>
+              我喜欢把问题拆清楚：从材料结构、性能测试到图表表达，让每一步都有证据，也让别人更容易看见工作的价值。
+            </p>
+          </div>
+          <div class="profile-panel" aria-label="个人概览">
+            <div>
+              <span class="stat-number">3+</span>
+              <span class="stat-label">研究方向</span>
+            </div>
+            <div>
+              <span class="stat-number">12</span>
+              <span class="stat-label">项目记录</span>
+            </div>
+            <div>
+              <span class="stat-number">24h</span>
+              <span class="stat-label">响应合作</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills-section" aria-label="能力">
+        <div class="skill-strip">
+          <span>材料表征</span>
+          <span>数据处理</span>
+          <span>文献整理</span>
+          <span>科研绘图</span>
+          <span>网页展示</span>
+        </div>
+      </section>
+
+      <section class="content-section" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>项目展示</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-tag">材料研究</p>
+            <h3>柔性无机材料性能分析</h3>
+            <p>
+              整理实验条件、力学性能、电学响应与循环稳定性数据，形成可复用的分析流程。
+            </p>
+          </article>
+          <article class="project-card">
+            <p class="project-tag">数据可视化</p>
+            <h3>实验数据图表系统</h3>
+            <p>
+              用统一的图表规范呈现测试结果，让论文、汇报和项目记录保持一致的视觉语言。
+            </p>
+          </article>
+          <article class="project-card">
+            <p class="project-tag">知识管理</p>
+            <h3>文献阅读与笔记库</h3>
+            <p>
+              建立主题、方法、结论和可复现实验信息索引，帮助后续研究快速回到关键上下文。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section timeline-section" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>经历</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span>2026</span>
+            <div>
+              <h3>个人主页上线</h3>
+              <p>整理个人介绍、研究方向、项目记录和联系方式，形成公开展示入口。</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span>2025</span>
+            <div>
+              <h3>研究项目推进</h3>
+              <p>围绕柔性无机材料开展实验记录、数据处理、图表整理和阶段性总结。</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span>2024</span>
+            <div>
+              <h3>方法积累</h3>
+              <p>搭建文献笔记、实验表格和可视化模板，为长期研究建立稳定工作流。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="contact-inner">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>一起聊聊新的想法</h2>
+            <p>
+              欢迎围绕材料研究、数据处理、科研展示或合作机会联系我，也可以交流正在推进的想法与计划。
+            </p>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:you@example.com">you@example.com</a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> 你的名字. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
